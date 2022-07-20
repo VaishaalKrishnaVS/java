@@ -1,4 +1,4 @@
-package array;
+
 
 // total no of subsets = 2^n
 import java.io.BufferedReader;

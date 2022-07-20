@@ -1,4 +1,4 @@
-package array;
+ 
 
 // part of an array where elements are continous
 //total no of subarray is n(n+1)/2
