@@ -1,9 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "string",
+        "recursion",
         "functions",
         "codeforces/less1300",
         "array",
         "2d_array",
-        "string"
+        "codeforces/div2A"
     ]
 }
