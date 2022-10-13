@@ -1,28 +1,15 @@
- 
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Stack;
 
-public class reverse {
+public class nge {
     public static void display(int[] a) {
         StringBuilder sb = new StringBuilder();
 
         for (int val : a) {
-            sb.append(val + " ");
+            sb.append(val + "\n");
         }
         System.out.println(sb);
-    }
-
-    public static void revers(int[] a) {
-        int i = 0;
-        int j = a.length - 1;
-        while (i < j) {
-            int temp = a[i];
-            a[i] = a[j];
-            a[j] = temp;
-            i++;
-            j--;
-        }
     }
 
     public static void main(String[] args) throws Exception {
@@ -34,7 +21,23 @@ public class reverse {
             a[i] = Integer.parseInt(br.readLine());
         }
 
-        revers(a);
-        display(a);
+        int[] nge = solve(a);
+        display(nge);
+    }
+
+    public static int[] solve(int[] arr) {
+
+        int n = arr.length;
+        int nge[] = new int[n];
+        Stack<Integer> st = new Stack<>();
+        nge[n - 1] = -1;
+        st.push(arr[n-1]);
+        for(int i=n-2;i>=0;i--){
+            while(st.size()>0 && arr[i]>st.peek()) st.pop();
+            if(st.size()==0) nge[i] =-1;
+            else nge[i] = st.peek();
+            st.push(arr[i]);
+        }
+        return nge;
     }
 }

@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class addition {
     public static class Node {
         int data;
@@ -429,7 +432,7 @@ public class addition {
     }
 
     public static void main(String[] args) throws Exception {
-        Buffered Reader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n1 = Integer.parseInt(br.readLine());
         LinkedList l1 = new LinkedList();

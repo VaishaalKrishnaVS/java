@@ -3,11 +3,12 @@
         "string",
         "sorting",
         "recursion",
+        "linkedlist",
         "functions",
         "codeforces/less1300",
         "codeforces/div2A",
         "array",
         "2d_array",
-        "linkedlist"
+        "stack"
     ]
 }

@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class merge {
+public class mergep {
 
     public static class Node {
         int data;
