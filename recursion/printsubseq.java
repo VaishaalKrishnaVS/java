@@ -13,6 +13,7 @@ public class printsubseq {
             System.out.println(ans);
             return;
         }
+        
         char ch = str.charAt(0);
         String r = str.substring(1);
         printSS(r, ans+ch);

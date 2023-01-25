@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "string",
+        "stack",
         "sorting",
         "recursion",
         "linkedlist",
@@ -9,6 +10,6 @@
         "codeforces/div2A",
         "array",
         "2d_array",
-        "stack"
+        "trees"
     ]
 }
