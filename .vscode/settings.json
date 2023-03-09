@@ -1,15 +1,22 @@
 {
-    "java.project.sourcePaths": [
-        "string",
-        "stack",
-        "sorting",
-        "recursion",
-        "linkedlist",
-        "functions",
-        "codeforces/less1300",
-        "codeforces/div2A",
-        "array",
-        "2d_array",
-        "trees"
-    ]
+  "java.project.sourcePaths": [
+    "trees",
+    "string",
+    "stack",
+    "sorting",
+    "recursion",
+    "priorityq",
+    "misc",
+    "linkedlist",
+    "hashmap",
+    "functions",
+    "dp",
+    "cses",
+    "codeforces/less1300",
+    "codeforces/div2A",
+    "array",
+    "amcat",
+    "2d_array",
+    "buynsell"
+  ]
 }
